@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="XYZ Bank" >
+	   <parameter name="loginuser" value="Manager"></parameter>
+       <classes> 
+          <class name="com.xyzbank.tests.AddDeleteVeifyCustomersTest" />
+       </classes>
+   </test>
+ </suite>
